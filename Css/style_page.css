@@ -1,0 +1,516 @@
+@charset "utf-8";
+body header  , body nav, body main, body footer{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body footer {
+	height: 100px;
+	background-color: #5F6435;
+}
+body footer h6 {
+	font-size: 18px;
+	text-align: center;
+	padding-top: 38px;
+	padding-right: 38px;
+	padding-left: 38px;
+	padding-bottom: 38px;
+	height: 25px;
+}
+body header h1 {
+	font-size: 48px;
+	height: 60px;
+	padding-top: 45px;
+	padding-right: 45px;
+	padding-bottom: 45px;
+	padding-left: 45px;
+	text-align: center;
+}
+
+
+
+body header {
+	background-color: #52356F;
+	color: #FFF4B9;
+	height: 150px;
+}
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+main section h2 {
+	padding-top: 0px;
+	padding-bottom: 30px;
+}
+
+body nav {
+	height: 60px;
+	background-color: #4B2223;
+}
+body main {
+	background-color: #75474D;
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+body main section {
+	background-color: #B28086;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+#menu_interno {
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 700px;
+	display: inline-block;
+	text-align: center;
+}
+#menu_interno p  {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+#m1 {
+}
+section p a:link , section p a:visited{
+	color: #1E1368;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 18px;
+}
+.menuen li a  {
+	margin-top: 0px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #C4EFFF;
+}
+body p {
+}
+.menuen li a:hover  {
+	color: #B28086;
+}
+.menuen li a:visited  {
+	color: #FFEDE2;
+}
+
+
+
+
+section p a:hover {
+	color: #337436;
+}
+
+
+section p a:active {
+	color: #C7B45D;
+}
+
+
+
+#m2 {
+}
+#m3 {
+}
+#m4 {
+}
+#menuen {
+	text-align: center;
+	padding-top: 20px;
+}
+#menuen li {
+	display: inline-block;
+	margin-left: 35px;
+	margin-right: 35px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 0px;
+}
+#tabla_1 , #tabla_1 th, #tabla_1 td{
+	border: 2px solid #994E51;
+}
+#tabla_1 {
+	margin-top: 20px;
+}
+
+#tabla_2, #tabla_2 th, #tabla_2 td {
+	border: 3px solid #673233;
+}
+#tabla_2 {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+#tabla_2 th {
+	font-size: 18px;
+	height: 40px;
+	background-color: #673233;
+	color: #B28086;
+}
+#tabla_2 td {
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 8px;
+	background-color: #92797C;
+}
+#tabla3 {
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+#tabla3 tbody tr:nth-child(even) {
+	background-color: #8F5759;
+	color: #B28086;
+}
+#tabla3 tbody tr:nth-child(odd) {
+	background-color: #92797C;
+}
+#tabla3 thead tr {
+	background-color: #673233;
+	color: #B28086;
+}
+#tabla4 {
+	border-collapse: collapse;
+	padding-top: 27px;
+	margin-top: 20px;
+}
+#tabla4 td:nth-child(even)  {
+	background-color: #8F5759;
+	width: 100px;
+}
+#tabla4 td, #tabla4 th {
+	border-width: 3px;
+	border-color: #B28086;
+}
+
+#tabla4 td:nth-child(odd)  {
+	background-color: #92797C;
+}
+#tabla4 th {
+	background-color: #673233;
+	color: #B28086;
+}
+#tabla5 {
+	border-collapse: collapse;
+	margin-top: 20px;
+	background-color: #673233;
+	color: #FFEDE2;
+	text-align: center;
+}
+#tabla5 th   {
+	height: 40px;
+	text-align: center;
+	background-color: #8F5759;
+
+}
+#tabla5 tr td {
+	height: 30px;
+}
+
+#tabla5 tbody tr:hover {
+	background-color: #92797C;
+	color: #FFD8C2;
+}
+#tabla6 {
+	width: 1200px;
+	border-collapse: collapse;
+}
+#tabla_receptiva {
+	overflow-x: scroll;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.imagen_1 {
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 20px;
+	min-width: 0px;
+	height: auto;
+}
+.imagen_2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 6px dotted #FFEDE2;
+	border-radius: 50%;
+	height: auto;
+}
+.imagen_3 {
+	width: 128px;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.img_fizq {
+	float: left;
+}
+.img_fder {
+	float: right;
+
+}
+.p_img {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.img_fondo {
+	background-image: url(../imagenes/kittens-painting-Apofiss-animals-cat-1363539-wallhere.com.jpg);
+	background-size: 150% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.imagen_4 {
+	width: 30%;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	height: auto;
+}
+.filtro_grayscale {
+	filter: grayscale(100%);
+}
+.filtro_brightness {
+	filter: brightness(60%);
+}
+.filtro_contrast {
+	filter: contrast(150%);
+}
+.filtro_invert {
+	filter: invert(100%);
+}
+.filtro_saturate {
+	filter: saturate(200%);
+}
+.filtro_sepia {
+	filter: sepia(100%);
+}
+.filtro_opacidad {
+	filter: opacity(50%);
+}
+.filtro_blur {
+	filter: blur(2px);
+}
+.sombra {
+	-webkit-box-shadow: 10px 10px 15px #5E5556;
+	box-shadow: 10px 10px 15px #5E5556;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.imagen_5 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+.centrar {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 30px;
+}
+#video_1 {
+	width: 80%;
+	clear: none;
+
+}
+#video_1 {
+}
+#video_1 {
+}
+#video_2 {
+	float: right;
+	width: 40%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#form2 {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	border-radius: 50px;
+	background-color: #E3B095;
+	width: 30%;
+	padding-top: 17px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.jus {
+	text-align: justify;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#form1 {
+	width: 50%;
+	height: 150px;
+	background-color: #E3B095;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border-radius: 50px;
+	text-align: center;
+	border-style: hidden;
+}
+
+#form2 #select:hover  {
+	background-color: #8F5759;
+	color: #FFD8C2;
+	font-size: 15px;
+	font-weight: bold;
+}
+#form2 #select {
+	color: #673233;
+	font-weight: bold;
+	background-color: #FFD8C2;
+}
+
+
+#form1 input[type=text] {
+	width: 60%;
+}
+input[type=submit] {
+	width: 100px;
+	height: 30px;
+	background-color: #FFD8C2;
+	color: #8F5759;
+	font-weight: bold;
+}
+#mapeado1 {
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	display: block;
+	padding-top: 10px;
+
+}
+#phm {
+	text-align: left;
+	width: 220px;
+	margin-left: 30px;
+}
+#form3 {
+	width: 400px;
+	height: auto;
+	background-color: #E3B095;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+
+#phm {
+}
+#form3 #nombre , #form3 #email{
+	width: 100%;
+	padding: 10px;
+	height: 24px;
+	color: #B28086;
+	font-weight: bold;
+	font-style: italic;
+	background-color: #673233;
+}
+#form3 #mensaje {
+	width: 100%;
+	height: 150px;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #B28086;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #673233;
+}
+#form4 #contraseñar {
+	width: 50%;
+}
+
+#form3 label {
+	font-size: 18px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: block;
+}
+#form4 {
+	width: 400px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 20px;
+	background-color: #E3B095;
+}
+#form4 #enviar1 {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+#form4 #nombrer ,#form4 #correor{
+	width: 80%;
+}
+#form4 #apellidor {
+	width: 80%;
+}
+#form4 #telefonor {
+	width: 80%;
+}
+#form4 #contraseñar {
+	width: 80%;
+}
+.imagen_6 {
+	width: 20%;
+	height: auto;
+	text-align: left;
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.imagenp_6 {
+	height: 200px;
+	text-align: justify;
+}
+
+.imagenp_6 {
+}
+#form4 label {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios en HTML</title>
+<link href="../Css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios en HTML</h1>
+&nbsp;</header>
+<nav>
+<ul class="menuen" id="menuen">
+    <li><a href="formatos_textos.html" title="Formatos de Texto" target="_blank">Formatos de Texto</a></li>
+    <li><a href="⁫listas.html" title="Listas" target="_blank">Listas</a></li>
+    <li><a href="enlaces.html" title="Enlaces" target="_blank">Enlaces</a></li>
+    <li><a href="tablas.html" title="Tablas" target="_blank">Tablas</a></li>
+	  <li><a href="imagenes.html" title="Imágenes" target="_blank">Imágenes</a></li>
+    <li><a href="video.html" title="Video" target="_blank">Video</a></li>
+	  <li><a href="Audio.html" title="Audio" target="_blank">Audio</a></li>
+  </ul>	
+</nav>
+<main>
+  <section>
+    <h2>Formulario de caja de texto.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nostrum commodi consequuntur sapiente dolor, doloremque suscipit expedita reiciendis, delectus ullam sint aliquam praesentium omnis impedit dolores velit error deleniti libero debitis dolorem architecto? Accusamus, fugiat itaque! Et veritatis suscipit, itaque velit iusto nisi quasi. Veritatis ratione, vero. Porro, quod, cupiditate.</p>
+    <form id="form1" name="form1" method="get">
+      <label for="Nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+		<br>
+		<br>
+      <label for="Apellido">Apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+		<br><br>
+      <input type="submit" name="boton1" id="boton1" value="Enviar">
+      &nbsp;
+    </form>
+    &nbsp;</section>
+  <section>
+    <h2>Formulario usando select, checkbox y rediobutton.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nostrum commodi consequuntur sapiente dolor, doloremque suscipit expedita reiciendis, delectus ullam sint aliquam praesentium omnis impedit dolores velit error deleniti libero debitis dolorem architecto? Accusamus, fugiat itaque! Et veritatis suscipit, itaque velit iusto nisi quasi. Veritatis ratione, vero. Porro, quod, cupiditate.</p>
+    <form id="form2" name="form2" method="post">
+      <label for="select">¿De qué país nos visitas?:</label>
+		<br><br>
+      <select name="select" id="select">
+        <option value="mx">México</option>
+        <option value="us">Estados Unidos</option>
+        <option value="esp">España</option>
+        <option value="ar">Argentina</option>
+        <option value="co">Colombia</option>
+        <option value="it">Italia</option>
+      </select>
+		<br><br>
+	  <label>Genero:</label>
+		<br>
+	  <p id="phm">
+		  <label>
+		    <input type="radio" name="Genero" value="femenino" id="Genero_0">
+		    Femenino</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="Genero" value="masculino" id="Genero_1">
+		    Másculino</label>
+		  <br>
+	  </p>
+		<br><br>
+	  <label>¿Cuál será tu residencia durante tu estancia?</label>
+		<br>
+	  <table width="200" id="phm">
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Residencia:temporal" value="hotel" id="Residencia:temporal_0">
+		      Hotel</label></td>
+        </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Residencia:temporal" value="particular" id="Residencia:temporal_1">
+		      Domicilio de amigos/familia</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Residencia:temporal" value="airbnb" id="Residencia:temporal_2">
+		      Airbnb</label></td>
+	      </tr>
+	  </table>
+<br><br>
+      <input type="submit" name="submit" id="submit" value="Enviar">
+      &nbsp;
+    </form>
+  &nbsp;</section>
+  <section>
+    <h2>Formulario de contacto.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nostrum commodi consequuntur sapiente dolor, doloremque suscipit expedita reiciendis, delectus ullam sint aliquam praesentium omnis impedit dolores velit error deleniti libero debitis dolorem architecto? Accusamus, fugiat itaque! Et veritatis suscipit, itaque velit iusto nisi quasi. Veritatis ratione, vero. Porro, quod, cupiditate.</p>
+    <form action="procesamiento.html" method="post" name="form3" id="form3">
+      <label for="nombre">Nombre:</label>
+      <input name="nombre" type="text" required="required" id="nombre">
+		<br>
+      <label for="email">Email:</label>
+      <input name="email" type="email" required="required" id="email">
+		<br>
+		<label for="mensaje">Mensaje:</label>
+		<textarea name="mensaje" rows="6" maxlength="150" id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+		<input type="submit" name="boton3" id="boton3" value="Enviar">
+      &nbsp;
+    </form>
+  &nbsp;</section>
+  <section>
+    <h2>Formulario de resgistro para convocatoria de colección de ilustraciones:</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nostrum commodi consequuntur sapiente dolor, doloremque suscipit expedita reiciendis, delectus ullam sint aliquam praesentium omnis impedit dolores velit error deleniti libero debitis dolorem architecto? Accusamus, fugiat itaque! Et veritatis suscipit, itaque velit iusto nisi quasi. Veritatis ratione, vero. Porro, quod, cupiditate.</p>
+<form action="/action_page.php" id="form4">
+	<label for="nombrer">Nombre:</label><br>
+  <input type="text" id="nombrer" name="nombrer">
+<br><br>
+	<label for="apellidor">Apellidos:</label><br>
+  <input type="text" id="apellidor" name="apellidor">
+<br><br>
+  <label for="telefonor">Teléfono:</label><br>
+  <input type="tel" name="telefonor" id="telefonor">
+<br><br>
+  <label for="correor">Correo electrónico:</label><br>
+  <input type="email" name="correor" id="correor">
+<br><br>
+  <label for="contraseñar">Contraseña:</label><br>
+  <input type="password" name="contraseñar" id="contraseñar">
+<br><br>
+	<label for="fechar">Fecha de resitro:</label>
+	<input type="date" name="fechar" id="fechar">
+<br><br>
+	<label for="cantidadr">Cantidad de ilustraciones por colección:</label>
+	<input type="number" id="cantidadr" name="cantidadr" min="1" max="5">
+<br><br>
+	<label for="archivor">Colección en formato PDF:</label><br>
+	<input type="file" id="archivor" name="archivor">
+<br><br>
+	<input name="checkr" type="checkbox" required="required" id="checkr">
+	<label for="checkr">¿Está de acuerdo con los terminos y condiciones de la convocatoria? </label>
+<br><br>
+	<input type="submit" name="enviar1" id="enviar1" value="Enviar">
+</form>
+  &nbsp;</section>
+  &nbsp;</main>
+<footer>
+  <h6>Elaborado por Indira Domínguez Durán</h6>
+&nbsp;</footer>
+</body>
+</html>
